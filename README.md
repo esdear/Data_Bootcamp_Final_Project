@@ -11,6 +11,8 @@ Submitting the same or substantially similar work in multiple courses, either in
 I acknowledge that a failure to abide by the NYU Stern Honor Code will result in a failing grade for the project and course.
 
 
-## Project Description
+## Abstract
 
-Our project attempted to address the prediction of 
+We attempt to address lack of predictive power of the baseline, industry-standard statistics relative to pitching performance year-over-year in Major League Baseball. The primary means of assessing pitcher performance, Earned Run Average, has little correlation with its year-lagged value and thus is not reliable as a forward looking metric. Subsequent attempts to create 'true talent level predictors' (such as FIP, Fielding Independent Pitching) have yielded only marginal improvements in predictive power.  Leveraging the recent release of granular per-pitch and at-bat data by Statcast, we hope to gain further insight into true talent levels.
+
+Using per-pitch data from the 2017 baseball season, we have derived a few predictors that greatly increase the predictive power of pitchers' ERA in the 2018 season.  While we saw a three-fold increase in predictive power from one season to the next, we acknowledge that a great deal of the variance is left unaccounted for.  As such, we present a few of our ideas regarding avenues for continued research.
